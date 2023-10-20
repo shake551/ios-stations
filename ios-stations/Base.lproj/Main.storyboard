@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bFU-A3-JFL">
-                                <rect key="frame" x="176" y="431" width="62" height="35"/>
+                                <rect key="frame" x="107" y="426" width="200" height="44"/>
                                 <color key="backgroundColor" name="Main"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="Hm9-0N-MIP"/>
