@@ -30,7 +30,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="presentSecondViewController:" destination="BYZ-38-t0r" eventType="touchDown" id="Q9y-I7-bw9"/>
+                                    <action selector="presentSecondViewController:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iss-Ho-4fb"/>
                                 </connections>
                             </button>
                         </subviews>

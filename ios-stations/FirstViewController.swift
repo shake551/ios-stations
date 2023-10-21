@@ -16,7 +16,7 @@ class FirstViewController: UIViewController {
     }
 
     @IBAction func presentSecondViewController(_ sender: UIButton) {
-        let secondVC = SecondViewController(url: "")
+        let secondVC = SecondViewController(url: "https://techbowl.co.jp/")
 
         self.present(secondVC, animated: true, completion: nil)
     }
