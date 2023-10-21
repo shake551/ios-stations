@@ -10,5 +10,4 @@ struct Book: Decodable {
     var detail: String
     var review: String
     var reviewer: String
-    var isMine: Bool
 }
