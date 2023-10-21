@@ -15,9 +15,10 @@ class FirstViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func buttonTapped(_ sender: UIButton) {
-        // sender.backgroundColor = UIColor.random でもいける
-        button.backgroundColor = UIColor.random
+    @IBAction func presentSecondViewController(_ sender: UIButton) {
+        let secondVC = SecondViewController(url: "")
+
+        self.present(secondVC, animated: true, completion: nil)
     }
 }
 
