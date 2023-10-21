@@ -8,9 +8,14 @@ import UIKit
 class FirstViewController: UIViewController {
     
     var books: [Book]?
+    let completion: ([Book]?) -> Void = { (books) in
+        let books = books
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        BookAPIClient().fetchBooks(offset: 0, completion: completion)
     }
 }
 
